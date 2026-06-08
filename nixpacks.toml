@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["nodejs_22"]
+nixPkgs = ["nodejs_22", "nodePackages.pnpm"]
 
 [start]
 cmd = "node --enable-source-maps artifacts/api-server/dist/index.mjs"
